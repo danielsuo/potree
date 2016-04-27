@@ -1,5 +1,4 @@
-
-import THREE from 'three';
+export default function(THREE) {
 
 function Potree(){
 	
@@ -9655,4 +9654,5 @@ Object.defineProperty(Potree.PointCloudArena4DGeometry.prototype, "spacing", {
 	}
 });
 
-export default Potree;
+return Potree;
+};
